@@ -1,6 +1,7 @@
 function check(par)
 {
     comp_par = Math.floor(Math.random() * 3); 
+    
     result=""
     if (par==comp_par) result="Ничья"
     else if (par==0 && comp_par==2) result="Компьютер выиграл"
@@ -11,6 +12,16 @@ function check(par)
 
     document.getElementById("result").innerHTML = " Вы выбрали "+change(par)+". Компьютер выбрал "+change(""+comp_par)+". "+result
     
+}
+
+
+function getname()
+{
+    VK.Api.call('users.get', { v:"5.73"}, function(r) {
+        if(r.response) {
+          alert('Привет, ' + r.response[0].first_name);
+        }
+      });
 }
 
 function change(par)
