@@ -9,7 +9,7 @@ function check(par)
     else if (par<comp_par) result="Вы выиграли"
 
 
-    alert(bridge.send('VKWebAppInit')+" Вы выбрали "+change(par)+". Компьютер выбрал "+change(""+comp_par)+". "+result)
+    alert(" Вы выбрали "+change(par)+". Компьютер выбрал "+change(""+comp_par)+". "+result)
 }
 
 function change(par)
