@@ -9,7 +9,8 @@ function check(par)
     else if (par<comp_par) result="Вы выиграли"
 
 
-    alert(" Вы выбрали "+change(par)+". Компьютер выбрал "+change(""+comp_par)+". "+result)
+    document.getElementById("result").innerHTML = " Вы выбрали "+change(par)+". Компьютер выбрал "+change(""+comp_par)+". "+result
+    
 }
 
 function change(par)

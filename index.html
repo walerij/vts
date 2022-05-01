@@ -10,25 +10,13 @@
 <button onclick="check('0')">Камень</button>
 <button onclick="check('1')">Ножницы</button>
 <button onclick="check('2')">Бумага</button>
-<button onclick="vktest()">Z</button>
-<script src="https://vk.com/js/api/xd_connection.js?2"  type="text/javascript"></script>
-        
-        <script type="text/javascript"> 
-            VK.init(function(){
-                alert("good");
-            }, function(){
-                alert("bad");
-            }, '5.62');
-        </script>
-        
-        <script type="text/javascript">
-            function vktest(){
-                VK.api("users.get", {'user_ids' : 1}, function(data) { 
-               alert(data.response[0].last_name);
-            });
-            }
 
-        </script>
+<div>
+    <div id="'result" name=""result"></div>
+</div>
+
+
+
 <script src="knb.js"></script>
 </body>
 </html>
