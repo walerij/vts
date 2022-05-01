@@ -1,7 +1,7 @@
 function check(par)
 {
     comp_par = Math.floor(Math.random() * 3); 
-    alert("Вы выбрали "+par+" Компьютер выбрал "+comp_par)
+    alert("Вы выбрали "+change(par)+" Компьютер выбрал "+change(""+comp_par))
 }
 
 function change(par)
@@ -13,7 +13,7 @@ function change(par)
         case "1":
             return "ножницы"
             break
-        case "32":
+        case "2":
             return "бумага"    
             break
      
