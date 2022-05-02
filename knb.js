@@ -34,7 +34,7 @@ function check(par)
     document.getElementById("result").className= resultclass_name
     document.getElementById("res_info").innerHTML = "Результат игры"
 
-    res_you = "<div class='card' style='width: 18rem;'> \
+    res_you = "<div class='card m-3' style='width: 18rem;'> \
     <img src='image\\"+par+".jpg' class='card-img-top' alt='...'> \
     <div class='card-body'>\
       <h5 class='card-title'>Ваш выбор</h5> \
@@ -44,7 +44,7 @@ function check(par)
   </div>"
 
 
-  res_comp = "<div class='card' style='width: 18rem;'> \
+  res_comp = "<div class='card m-3' style='width: 18rem;'> \
   <img src='image\\"+comp_par+".jpg' class='card-img-top' alt='...'> \
   <div class='card-body'>\
     <h5 class='card-title'>Выбор компьютера</h5> \
@@ -54,7 +54,7 @@ function check(par)
 </div>"
 
 
-res_win = "<div class='card' style='width: 18rem;'> \
+res_win = "<div class='card m-3' style='width: 18rem;'> \
 <img src='image\\"+respict+".png' class='card-img-top' alt='...'> \
 <div class='card-body'>\
   <h5 class='card-title'>Результат</h5> \
